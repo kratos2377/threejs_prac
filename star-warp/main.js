@@ -1,5 +1,7 @@
+import * as THREE from "../build/three.module.js";
+
 var scene, camera, renderer;
-console.log("working");
+console.log("working s2s2");
 let LINE_COUNT = 8000;
 let geom = new THREE.BufferGeometry();
 geom.setAttribute(
